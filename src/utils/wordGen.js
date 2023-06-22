@@ -1,6 +1,8 @@
+"use server"
 //  Purpose: Generates random words and adjectives for profile
 // TODO - Add more words and adjectives
- const Os = [
+const Os = [
+    '(O-liv-ee-ay)',
     'Orange',
     'Observant',
     // 'Oblivious',
@@ -10,7 +12,8 @@
     'Overpowered',
 ]
 
- const Js = [
+const Js = [
+    'John',
     'Juice',
     'Juicy',
     'Jubilant',
@@ -19,13 +22,80 @@
     'Jovial',
 ]
 
- const Ns = [
+const Ns = [
     'Ninja',
     'Nerd',
     // 'Narcissist',
     'Necromancer',
     'Not-Simpson',
 ]
+
+const words1 = [
+    'Innovative',
+    'creative',
+    'adaptable',
+    'adventurous',
+    'genuine',
+    'artistic',
+]
+const words2 = [
+    'analytical',
+    'ambitious',
+    'curious',
+    'diligent',
+    'proactive',
+    'resourceful',
+]
+const words3 = [
+    'passionate',
+    'dedicated',
+    'dependable',
+    'attentive',
+    'cooperative',
+]
+
+
+const nouns = [
+    'thinker',
+    'problem-solver',
+    'leader',
+    'teammate',
+    'engineer',
+    'developer',
+]
+
+
+export const genWord1 = (word) => {    
+    const idx = Math.floor(Math.random() * words1.length)
+    if (word === words1[idx]) {
+        return genWord1(word)
+    }
+    return words1[idx]
+}
+export const genWord2 = (word) => {
+    const idx = Math.floor(Math.random() * words2.length)
+    if (word === words2[idx]) {
+        return genWord2(word)
+    }
+    return words2[idx]
+}
+
+export const genWord3 = (word) => {
+    const idx = Math.floor(Math.random() * words3.length)
+    if (word === words3[idx]) {
+        return genWord3(word)
+    }
+    return words3[idx]
+}
+
+export const genNoun = (noun) => {
+    const idx = Math.floor(Math.random() * nouns.length)
+    if (noun === nouns[idx]) {
+        return genNoun(noun)
+    }
+    return nouns[idx]
+}
+
 
 export const genOs = (O) => {
     const idx = Math.floor(Math.random() * Os.length)

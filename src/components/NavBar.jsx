@@ -20,15 +20,15 @@ const NavBar = () => {
     //todo add hamburger menu on mobile
     //todo add absolute ojn icon
     //todo add theme toggle
-    <div className="flex bg-light text-dark justify-between pt-2 pb-7 px-5 text-lg">
+    <div className="flex bg-light text-dark justify-between p-8 px-10 pb-7  text-lg">
 
       <nav className="flex items-center flex-wrap gap-3">
         <Link className= {linerClass('/')}href='/'>Home</Link>
-        <Link className={linerClass('/experience')} href='/experience'>Experience</Link>
+        <Link className={linerClass('/about')} href='/about'>About</Link>
         <Link className={linerClass('/projects')} href='/projects'>Projects</Link>
         <Link className={linerClass('/contact')} href='/contact'>Contact</Link>
       </nav>
-      <nav className="flex items-center flex-wrap gap-3">
+      <nav className="flex items-center flex-wrap gap-5">
         <Name />
         <Link target='_blank' href='https://www.linkedin.com/in/ojn' className='w-6 ml-4'>
           <Image src={linkedin} />

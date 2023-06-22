@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import React from 'react'
-import { genOs, genJs, genNs } from '@/utils/NameGen'
+import { genOs, genJs, genNs } from '@/utils/wordGen.js'
 import { useState } from 'react'
 import { variant } from '../utils/motionVariants.js'
 
@@ -13,7 +13,7 @@ const Name = () => {
     const [N, setN] = useState("Nzia")
     return (
         <div
-            className="text-dark w-fit rounded-md  hidden md:flex gap-1.5 py-1"
+            className="text-dark w-fit  hidden md:flex gap-1.5 py-1"
         >
             <motion.span
                 onClick={() => { setO(genOs({ O })) }}
@@ -22,7 +22,6 @@ const Name = () => {
                 animate='visible'
                 whileHover={{ cursor: 'pointer', scale: 1.1 }}
                 key={O}
-                className='z-10'
             >
                 {O}
             </motion.span>
@@ -33,7 +32,6 @@ const Name = () => {
                 animate='visible'
                 whileHover={{ cursor: 'pointer', scale: 1.1 }}
                 key={J}
-                className='z-10'
             >
                 {J}
             </motion.span>
@@ -44,7 +42,6 @@ const Name = () => {
                 animate='visible'
                 whileHover={{ cursor: 'pointer', scale: 1.1 }}
                 key={N}
-                className='z-10'
             >
                 {N}
             </motion.span>

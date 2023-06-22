@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
    
-      <body className='px-5 bg-light'>
+      <body className=' bg-light'>
         <NavBar />
         {children}
       </body>

@@ -24,7 +24,7 @@ export const projects = [
         description: 'Long description',
         image: pancakes,
         link: '/',
-        repo: '',
+        repo: 'https://github.com/ojn03/portfolio',
         technologies: ['Next.js', 'Framer Motion', 'Tailwind CSS']
 
     },
@@ -39,16 +39,16 @@ export const projects = [
         technologies: ['Java', 'Swing']
 
     },
-    // {    path: '',
-    //     title: 'Arnold the Astronaut',
-    //     short: 'A twitter bot that likes astronomy',
-    //     description: 'Long description',
-    //     image: 'https://source.unsplash.com/1600x900/?night,space,sky',
-    //     link: 'https://picsum.photos/200/300',
-    //     repo: '',
-    //     technologies: ['twitter API', 'NASA API', 'twitter4j']
+    {    path: '',
+        title: 'Arnold the Astronaut',
+        short: 'A twitter bot that likes astronomy',
+        description: 'Long description',
+        image: city,
+        link: 'https://picsum.photos/200/300',
+        repo: '',
+        technologies: ['twitter API', 'NASA API', 'twitter4j']
 
-    // },
+    },
     // {    path: '',
     //     title: 'Candid Conversations ',
     //     short: 'a demo chat application',
