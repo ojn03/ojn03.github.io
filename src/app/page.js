@@ -1,12 +1,13 @@
 import Image from 'next/image'
-import headshot from 'public/hs.png'
+import headshot from 'public/me.png'
 import inf from 'public/infinite.jpg'
 import bulb from 'public/lightbulb.svg'
 import AnimatedWord from '@/components/AnimatedWord.jsx'
 import { } from '../utils/wordGen'
 import { words1, words2, words3, nouns } from '../utils/wordGen.js'
 import Link from 'next/link'
-
+import { ChatDark, Linkedin } from '../../public/icons'
+import { ExternalLink } from '../../public/icons'
 export default function Home() {
   return (
 
@@ -23,7 +24,7 @@ export default function Home() {
           <span className=' block text-lg text-dark font-light pb-2'> (O-liv-ee-ay)
           </span>
           <p className='font-light text-xl'>
-            In my journey as an engineer, I&apos;ve learned to turn ideas into reality. Today, I build things because its my passion. I do what I love and I love what I do.
+            As an engineer, I&apos;ve learned to turn ideas into reality. Today, I build things because its my passion. I do what I love and I love what I do.
           </p>
         </div>
         <div className=' w-full  flex lg:justify-normal gap-6 justify-center'>
@@ -31,20 +32,16 @@ export default function Home() {
             className='  bg-dark text-light py-2 px-6 rounded-lg font-semibold hover:bg-light border-2 border-solid border-transparent hover:border-dark hover:text-dark transition-colors text-lg'
             href='OlivierNziaResume.pdf'
             target='_blank' >
-            Resume
+            Résumé
           </Link>
           <Link
             className='self-center text-dark underline underline-offset-4 font-semibold'
             target='_blank'
             href='mailto:ndjikenzia.o@northeastern.edu'>
-            Say Hi!
+            Say Hi! 
           </Link>
         </div>
       </div>
     </div>
-
-
-
-
   )
 }

@@ -3,11 +3,11 @@ import React, { useRef } from 'react';
 import LineIcon from './LineIcon';
 import Link from 'next/link';
 
-const Experience = ({   exp: { position, location, company, description, date, link } }) => {
+const Exp = ({ exp: { position, location, company, description, date, link } }) => {
     const ref = useRef(null)
     return (
-        <li  ref={ref} className='my-8 first:mt-0 last:mb-0 w-3/5 mx-auto flex flex-col items-center justify-between '>
-           <LineIcon reference={ref}/>
+        <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-3/5 mx-auto flex flex-col items-center justify-between '>
+            <LineIcon reference={ref} />
             <motion.div
                 initial={{ y: 50 }}
                 whileInView={{ y: 0 }}
@@ -25,4 +25,4 @@ const Experience = ({   exp: { position, location, company, description, date, l
         </li>)
 }
 
-export default Experience;
+export default Exp;

@@ -1,7 +1,7 @@
 import AnimatedWord from '@/components/AnimatedWord'
 import Head from 'next/head'
 import React from 'react'
-import me from 'public/hs.png'
+import me from 'public/me.png'
 import Image from 'next/image'
 import Experiences from '@/components/Experiences'
 //todo find a different picture

@@ -4,12 +4,7 @@ import { experiences } from '@/utils/info'
 import Link from 'next/link'
 import { motion, useScroll } from 'framer-motion'
 import LineIcon from './LineIcon'
-import Experience from './Experience'
-
-
-
-
-
+import Exp from './Exp'
 
 const Experiences = () => {
     const ref = useRef(null);
@@ -30,7 +25,7 @@ const Experiences = () => {
                     className=' absolute left-9 top-0 w-1 h-full bg-dark origin-top' />
 
                 <ul className='w-full flex flex-col items-start justify-between ml-4'>
-                    {experiences.map((exp, idx) => (<Experience  exp={exp} key={idx} />)
+                    {experiences.map((exp, idx) => (<Exp  exp={exp} key={idx} />)
                     )}
                 </ul>
             </div>
