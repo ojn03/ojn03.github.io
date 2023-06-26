@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import React from 'react'
-import { genOs, genJs, genNs } from '@/utils/wordGen.js'
+import { gen, Os, Js, Ns } from '@/utils/wordGen.js'
 import { useState } from 'react'
 import { variant } from '../utils/motionVariants.js'
 
@@ -16,7 +16,7 @@ const Name = () => {
             className="text-dark w-fit  hidden md:flex gap-1.5 py-1"
         >
             <motion.span
-                onClick={() => { setO(genOs({ O })) }}
+                onClick={() => { setO(gen( Os, O )) }}
                 variants={variant}
                 initial='hidden'
                 animate='visible'
@@ -26,7 +26,7 @@ const Name = () => {
                 {O}
             </motion.span>
             <motion.span
-                onClick={() => { setJ(genJs({ J })) }}
+                onClick={() => { setJ(gen( Js, J )) }}
                 variants={variant}
                 initial='hidden'
                 animate='visible'
@@ -36,7 +36,7 @@ const Name = () => {
                 {J}
             </motion.span>
             <motion.span
-                onClick={() => { setN(genNs({ N })) }}
+                onClick={() => { setN(gen( Ns, N )) }}
                 variants={variant}
                 initial='hidden'
                 animate='visible'

@@ -17,13 +17,14 @@ module.exports = {
         'mlg': '896px'
       },
       colors: {
-        // 'light': '#f0f0ff',
+        'light1': '#f0f0ff',
         'light': '#fffff0',
         // 'dark': '#50305F',
         'dark': '#6F6320',
         'dark3': '#300132',
         'action': '#FF23AE',
         'action2': '#783F61',
+        'gold': '#FFD700',
       }
     },
   },

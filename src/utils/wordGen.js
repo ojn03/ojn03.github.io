@@ -1,8 +1,7 @@
-"use server"
 //  Purpose: Generates random words and adjectives for profile
 // TODO - Add more words and adjectives
-const Os = [
-    '(O-liv-ee-ay)',
+export const Os = [
+    // '(O-liv-ee-ay)',
     'Orange',
     'Observant',
     // 'Oblivious',
@@ -10,9 +9,18 @@ const Os = [
     // 'Obnoxious',
     'Obscene',
     'Overpowered',
+    'Omnipotent',
+    // 'Omniscient',
+    'Omnivorous',
+    'Ominous',
+    'Obtuse',
+    'Odd', 
+
+
+
 ]
 
-const Js = [
+export const Js = [
     'John',
     'Juice',
     'Juicy',
@@ -22,7 +30,7 @@ const Js = [
     'Jovial',
 ]
 
-const Ns = [
+export const Ns = [
     'Ninja',
     'Nerd',
     // 'Narcissist',
@@ -30,7 +38,7 @@ const Ns = [
     'Not-Simpson',
 ]
 
-const words1 = [
+export const words1 = [
     'Innovative',
     'creative',
     'adaptable',
@@ -38,7 +46,7 @@ const words1 = [
     'genuine',
     'artistic',
 ]
-const words2 = [
+export const words2 = [
     'analytical',
     'ambitious',
     'curious',
@@ -46,16 +54,17 @@ const words2 = [
     'proactive',
     'resourceful',
 ]
-const words3 = [
+export const words3 = [
     'passionate',
     'dedicated',
     'dependable',
     'attentive',
     'cooperative',
+    'unique',
 ]
 
 
-const nouns = [
+export const nouns = [
     'thinker',
     'problem-solver',
     'leader',
@@ -65,63 +74,17 @@ const nouns = [
 ]
 
 
-export const genWord1 = (word) => {    
-    const idx = Math.floor(Math.random() * words1.length)
-    if (word === words1[idx]) {
-        return genWord1(word)
-    }
-    return words1[idx]
-}
-export const genWord2 = (word) => {
-    const idx = Math.floor(Math.random() * words2.length)
-    if (word === words2[idx]) {
-        return genWord2(word)
-    }
-    return words2[idx]
-}
 
-export const genWord3 = (word) => {
-    const idx = Math.floor(Math.random() * words3.length)
-    if (word === words3[idx]) {
-        return genWord3(word)
+export const gen = (list, word) => {
+    const idx = Math.floor(Math.random() * list.length)
+    if (word === list[idx]) {
+        return gen(list, word)
     }
-    return words3[idx]
-}
-
-export const genNoun = (noun) => {
-    const idx = Math.floor(Math.random() * nouns.length)
-    if (noun === nouns[idx]) {
-        return genNoun(noun)
-    }
-    return nouns[idx]
+    return list[idx]
 }
 
 
-export const genOs = (O) => {
-    const idx = Math.floor(Math.random() * Os.length)
-    if (O === Os[idx]) {
-        return genOs(O)
-    }
-    return Os[idx]
-}
-export const genJs = (J) => {
-    const idx = Math.floor(Math.random() * Js.length)
-    if (J === Js[idx]) {
-        return genJs(J)
-    }
-    return Js[idx]
-}
-export const genNs = (N) => {
-    const idx = Math.floor(Math.random() * Ns.length)
-    if (N === Ns[idx]) {
-        return genNs(N)
-    }
-    return Ns[idx]
-}
 
-export const NameGen = () => {
-    return `${genOs()} ${genJs()} ${genNs()}`
-}
 
 // import FileSaver from 'file-saver';
 // import { surpriseMePrompts } from '../constant';

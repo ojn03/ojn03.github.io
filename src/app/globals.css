@@ -14,14 +14,14 @@
   margin-left: -3px;
   margin-right: -3px;
   position: absolute;
-  background: rgba(254, 254, 239);
+  background: rgba(254, 0, 239,.5);
 
   transform: rotate(-1.5deg);
   top: -1px;
   left: -1px;
   border-radius: 25% 30% 35% 24%;
   padding: 10px 3     px 3px 10px;
-  z-index: 0;
+  z-index: 1;
 }
 
 .mark {

@@ -90,3 +90,63 @@ export const projects = [
     // },
 
 ]
+
+export const experiences = [
+    { 
+        position: 'position1',
+        company: 'company1',
+        description: 'description1',
+        location: 'location1',
+        date: 'date1',
+        technologies: ['tech1', 'tech2', 'tech3'],
+        image: 'https://picsum.photos/200/300',
+        link: 'https://example.com',
+        
+    },
+    {
+        position: 'position2',
+        company: 'company2',
+        description: 'description2',
+        location: 'location2',
+        date: 'date2',
+        technologies: ['tech1', 'tech2', 'tech3'],
+        image: 'https://picsum.photos/200/300',
+        link: 'https://example.com',
+    },
+    {
+        position: 'position3',
+        company: 'company3',
+        description: 'description3',
+        location: 'location3',
+        date: 'date3',
+
+        technologies: ['tech1', 'tech2', 'tech3'],
+        image: 'https://picsum.photos/200/300',
+        link: 'https://example.com',
+    },
+    {
+        position: 'position4',
+        company: 'company4',
+        description: 'description4',
+        location: 'location4',
+        date: 'date4',
+        technologies: ['tech1', 'tech2', 'tech3'],
+        image: 'https://picsum.photos/200/300',
+        link: 'https://example.com',
+    },
+    {
+        position: 'position5',
+        company: 'company5',
+        description: 'description5',
+        location: 'location5',
+        date: 'date5',
+        technologies: ['tech1', 'tech2', 'tech3'],
+        image: 'https://picsum.photos/200/300',
+        link: 'https://example.com',
+    },
+
+
+
+
+
+]
