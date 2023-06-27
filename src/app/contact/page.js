@@ -4,6 +4,7 @@ import { projects } from '@/utils/info'
 import Link from 'next/link'
 import ContactForm from '@/components/ContactForm'
 import Head from 'next/head'
+import { ToastContainer } from 'react-toastify'
 
 const page = () => {
   return (
@@ -13,8 +14,9 @@ const page = () => {
       </Head>
       <main className=' p-12 w-full h-full'>
         <ContactForm />
-      </main>
+        <ToastContainer />
 
+      </main>
     </>
   )
 }
