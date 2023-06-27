@@ -11,11 +11,11 @@ import { ExternalLink } from '../../public/icons'
 export default function Home() {
   return (
 
-    <div className=' w-full flex lg:flex-row flex-col lg:justify-between self-center mx-0 my-auto '>
-      <div className='lg:w-1/2 md:w-3/4 mx-auto'>
-        <Image src={headshot} alt='olivier.jpg' className='p-12 mx-auto' />
+    <div className='overflow-x-hidden max-w-full w-full flex lg:flex-row flex-col lg:justify-between self-center mx-0 my-auto '>
+      <div className='lg:w-1/2 w-3/4  mx-auto'>
+        <Image src={headshot} alt='olivier.jpg' className='p-11 mx-auto' />
       </div>
-      <div className='self-center w-1/2 flex gap-4 flex-col items-center my-auto lg:p-24 '>
+      <div className='self-center w-3/4 lg:w-1/2 flex gap-4 flex-col items-center my-auto lg:p-24 '>
 
         <div className='self-center text-center  lg:text-left'>
           <h1 className=' md:text-5xl text-4xl text-dark'>

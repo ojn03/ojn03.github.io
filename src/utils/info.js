@@ -9,10 +9,10 @@ export const projects = [
     {
         path: '',
         title: 'Little Lens',
-        short: 'an image sharing application like Pinterest',
+        short: 'Post Images, save Images, comment, and more!\nthis is an image sharing application (sorta like Pinterest)\n ',
         description: 'Long description',
         image: ll,
-        link: 'https://picsum.photos/200/300',
+        link: 'https://littlelensv1.netlify.app/',
         repo: 'https://github.com/ojn03/littleLens',
         technologies: ['React', 'Tailwind CSS', 'Sanity.io']
 
@@ -20,7 +20,7 @@ export const projects = [
     {
         path: '/',
         title: 'ojn.me',
-        short: 'this website',
+        short: 'A website about a (really cool and handsome) guy named Olivier',
         description: 'Long description',
         image: pancakes,
         link: '/',

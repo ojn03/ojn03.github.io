@@ -39,6 +39,9 @@
   box-decoration-break: clone;
 }
 
+*{
+  box-sizing: border-box;
+}
 
 
 .t1, .t2, .t3 {
