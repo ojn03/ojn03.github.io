@@ -7,7 +7,7 @@ import city from 'public/city.jpeg'
 
 export const projects = [
     {
-        path: '',
+        infoPath: '',
         title: 'Little Lens',
         short: 'Post Images, save Images, comment, and more!\nthis is an image sharing application (sorta like Pinterest)\n ',
         description: 'Long description',
@@ -18,7 +18,7 @@ export const projects = [
 
     },
     {
-        path: '/',
+        infoPath: '',
         title: 'ojn.me',
         short: 'A website about a (really cool and handsome) guy named Olivier',
         description: 'Long description',
@@ -29,27 +29,28 @@ export const projects = [
 
     },
     {
-        path: '',
+        infoPath: '',
         title: 'Polished Pixels',
-        short: 'a photo editor',
+        short: 'An image processor where users can import and export images in any format, and apply various filters to them.',
         description: 'Long description',
         image: grafiti,
-        link: 'https://picsum.photos/200/300',
+        link: '',
         repo: '',
         technologies: ['Java', 'Swing']
 
     },
-    {    path: '',
+    {    
+        infoPath: '',
         title: 'Arnold the Astronaut',
         short: 'A twitter bot that likes astronomy',
         description: 'Long description',
         image: city,
-        link: 'https://picsum.photos/200/300',
+        link: '',
         repo: '',
         technologies: ['twitter API', 'NASA API', 'twitter4j']
 
     },
-    // {    path: '',
+    // {    infoPath: '',
     //     title: 'Candid Conversations ',
     //     short: 'a demo chat application',
     //     description: 'Long description',
@@ -58,7 +59,7 @@ export const projects = [
     //     repo: '',
     //     technologies: ['React', 'Next.js', 'Tailwind CSS']
     // },
-    // {    path: '',
+    // {    infoPath: '',
     //     title: 'Resume Scraper',
     //     short: 'a resume parser',
     //     description: 'Long description',
@@ -68,7 +69,7 @@ export const projects = [
     //     technologies: ['Python', 'Regex', 'Numpys', 'Pandas']
 
     // },
-    // {    path: '',
+    // {    infoPath: '',
     //     title: 'bug tracker',
     //     short: 'A project management tool',
     //     description: 'Long description',
@@ -78,7 +79,7 @@ export const projects = [
     //     technologies: ['NextJs', 'Tailwind CSS', 'MongoDB', 'Express', 'Node.js', 'PostgreSQL',]
 
     // },
-    // {    path: '',
+    // {    infoPath: '',
     //     title: 'path finder',
     //     short: 'an interactive path finding visualizer',
     //     description: 'a tool demonstrates different path finding algorithms',
@@ -93,60 +94,43 @@ export const projects = [
 
 export const experiences = [
     { 
-        position: 'position1',
-        company: 'company1',
-        description: 'description1',
-        location: 'location1',
-        date: 'date1',
+        position: 'Discrete Structures TA',
+        company: 'Khoury College',
+        description: 'Assisted in teaching Discrete structures concepts such as combinations, graphs, and logical statements. Hosted office hours where I tutored students 1v1 and in groups. Helped grade assignments and exams, as well as review sessions for student exams. ',        
+        location: 'Boston, MA',
+        date: 'Fall - Winter 2022',
         technologies: ['tech1', 'tech2', 'tech3'],
         image: 'https://picsum.photos/200/300',
-        link: 'https://example.com',
+        link: 'https://www.khoury.northeastern.edu/',
         
     },
     {
-        position: 'position2',
-        company: 'company2',
-        description: 'description2',
-        location: 'location2',
-        date: 'date2',
+        position: 'Development Research Assistant',
+        company: 'Northeastern University',
+        description: 'Aided reasearch efforts by categorizing and analyzing existing data. Wrote scripts in python to automate data collection and analysis.',
+        location: 'Boston, MA',
+        date: 'Fall 2021 - Spring 2023',
         technologies: ['tech1', 'tech2', 'tech3'],
         image: 'https://picsum.photos/200/300',
         link: 'https://example.com',
     },
     {
-        position: 'position3',
-        company: 'company3',
-        description: 'description3',
-        location: 'location3',
-        date: 'date3',
-
-        technologies: ['tech1', 'tech2', 'tech3'],
-        image: 'https://picsum.photos/200/300',
-        link: 'https://example.com',
+        position: 'Robotics Club',
+        company: 'Jack E Singley Academy',
+        description: 'Helped design, code, and build robots capable of navigating different environments and performing actions such as shooting a ball at a target or stacking blocks. Implemented autonomous systems as well as user controlled. Led a team to compete in VEX Robotics and FIRST Robotics Competitions.',
+        location: 'Irving, TX',
+        date: '2017 - 2021',
+        link: 'https://www.irvingisd.net/SINGLEY',
     },
     {
-        position: 'position4',
-        company: 'company4',
-        description: 'description4',
-        location: 'location4',
-        date: 'date4',
+        position: 'Merit Badge Counselor',
+        company: 'Circle Ten Counci ',
+        description: 'Created interactive lessons and actvities and led younger scouts to help them earn merit badges.',
+        location: 'Grayford, TX',
+        date: 'Summer 2019 - 2021',
         technologies: ['tech1', 'tech2', 'tech3'],
         image: 'https://picsum.photos/200/300',
         link: 'https://example.com',
     },
-    {
-        position: 'position5',
-        company: 'company5',
-        description: 'description5',
-        location: 'location5',
-        date: 'date5',
-        technologies: ['tech1', 'tech2', 'tech3'],
-        image: 'https://picsum.photos/200/300',
-        link: 'https://example.com',
-    },
-
-
-
-
 
 ]

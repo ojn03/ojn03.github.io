@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { GithubWhite, ExternalLight, Info } from '../../public/icons'
 
 const ProjectCard = (
-    { project: { title, short, image, link, repo } }) => {
+    { project: { title, short, image, link, repo, infoPath } }) => {
     return (
         <div className='flex flex-col items-center'>
             <div className='relative w-[300px] h-[200px]'>
@@ -14,15 +14,18 @@ const ProjectCard = (
                     <div className='mx-auto '>
                         {short}
                     </div>
-                    <Link href={link} target='_blank' className='transition-all hover:scale-110 hover:opacity-100 opacity-70 absolute bottom-4 right-4'>
-                        <ExternalLight className='w-8' />
-                    </Link>
-                    {link && <Link href={link} target='_blank' className='transition-all hover:scale-110 hover:opacity-100 opacity-70 absolute bottom-4 left-4'>
-                        <Info className='w-8' />
-                    </Link>}
-                    {repo && <Link href={repo} target='_blank' className='transition-all hover:scale-110 hover:opacity-100 opacity-70 absolute bottom-4 left-[45%] '>
-                        <GithubWhite className='w-8' />
-                    </Link>}
+                    {link &&
+                        <Link passHref href={link} target='_blank' className='transition-all hover:scale-110 hover:opacity-100 opacity-70 absolute bottom-4 right-4'>
+                            <ExternalLight className='w-8' />
+                        </Link>}
+                    {infoPath &&
+                        <Link passHref href={infoPath} target='_blank' className='transition-all hover:scale-110 hover:opacity-100 opacity-70 absolute bottom-4 left-4'>
+                            <Info className='w-8' />
+                        </Link>}
+                    {repo &&
+                        <Link passHref href={repo} target='_blank' className='transition-all hover:scale-110 hover:opacity-100 opacity-70 absolute bottom-4 left-[45%] '>
+                            <GithubWhite className='w-8' />
+                        </Link>}
                 </div>
 
             </div>

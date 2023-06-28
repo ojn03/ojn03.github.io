@@ -6,12 +6,11 @@ import AnimatedWord from '@/components/AnimatedWord.jsx'
 import { } from '../utils/wordGen'
 import { words1, words2, words3, nouns } from '../utils/wordGen.js'
 import Link from 'next/link'
-import { ChatDark, Linkedin } from '../../public/icons'
-import { ExternalLink } from '../../public/icons'
 export default function Home() {
+
   return (
 
-    <div className='overflow-x-hidden max-w-full w-full flex lg:flex-row flex-col lg:justify-between self-center mx-0 my-auto '>
+    <div className=' relative overflow-x-hidden max-w-full w-full flex lg:flex-row flex-col lg:justify-between self-center mx-0 my-auto '>
       <div className='lg:w-1/2 w-3/4  mx-auto'>
         <Image src={headshot} alt='olivier.jpg' className='p-11 mx-auto' />
       </div>
@@ -21,13 +20,12 @@ export default function Home() {
           <h1 className=' md:text-5xl text-4xl text-dark'>
             Hi Im Olivier, Software Engineer
           </h1>
-          <span className=' block text-lg text-dark font-light pb-2'> (O-liv-ee-ay)
-          </span>
+          <span className=' block text-lg text-dark font-light pb-2'> (O-liv-ee-ay)</span>
           <p className='font-light text-xl'>
             As an engineer, I&apos;ve learned to turn ideas into reality. Today, I build things because its my passion. I do what I love and I love what I do.
           </p>
         </div>
-        <div className=' w-full  flex lg:justify-normal gap-6 justify-center'>
+        <div className=' z-10 w-full  flex lg:justify-normal gap-6 justify-center'>
           <Link
             className='  bg-dark text-light py-2 px-6 rounded-lg font-semibold hover:bg-light border-2 border-solid border-transparent hover:border-dark hover:text-dark transition-colors text-lg'
             href='OlivierNziaResume.pdf'
@@ -38,8 +36,28 @@ export default function Home() {
             className='self-center text-dark underline underline-offset-4 font-semibold'
             target='_blank'
             href='mailto:ndjikenzia.o@northeastern.edu'>
-            Say Hi! 
+            Say Hi!
           </Link>
+        </div>
+      </div>
+
+      <div className=' bg-none overflow-hidden w-full h-full  absolute left-0 top-0 lg:flex lg:justify-between text-gold text-6xl hidden'>
+        <div className='flex justify-between flex-col '>
+          <AnimatedWord list={words1} />
+          <AnimatedWord list={words1} />
+          <AnimatedWord list={words1} />
+        </div>
+
+        <div className='flex text-center flex-col justify-between'>
+          <AnimatedWord list={nouns} />
+          <AnimatedWord list={words1} />
+          <AnimatedWord list={words2} />
+        </div>
+
+        <div className='flex flex-col justify-between text-right'>
+          <AnimatedWord list={words3} />
+          <AnimatedWord list={words2} />
+          <AnimatedWord list={words2} />
         </div>
       </div>
     </div>

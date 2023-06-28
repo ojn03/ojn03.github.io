@@ -15,9 +15,7 @@ export const Os = [
     'Ominous',
     'Obtuse',
     'Odd', 
-
-
-
+    
 ]
 
 export const Js = [
@@ -65,9 +63,9 @@ export const words3 = [
 
 
 export const nouns = [
-    'thinker',
-    'problem-solver',
     'leader',
+    'problem-solver',
+    'thinker',
     'teammate',
     'engineer',
     'developer',

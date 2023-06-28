@@ -7,12 +7,7 @@ import emailjs from '@emailjs/browser';
 import { Flip, toast, ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 
-
-
-
-
 const ContactForm = () => {
-
 
     const formRef = useRef();
 
@@ -51,7 +46,6 @@ const ContactForm = () => {
     }
 
     return (
-
         <>
             <form ref={formRef} onSubmit={sendEmail} className='p-10  bg-dark flex flex-col items-center mlg:w-[55%] xl:w-[45%] md:w-4/5 h-fit mx-auto  shadow-2xl rounded-lg'>
 

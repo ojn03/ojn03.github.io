@@ -1,4 +1,3 @@
-import AnimatedWord from '@/components/AnimatedWord'
 import Head from 'next/head'
 import React from 'react'
 import me from 'public/me.png'
@@ -27,7 +26,7 @@ const page = () => {
                 My name is <b>Olivier John Nzia</b> and I&apos;m a software engineer. I&apos;m pursuing my bachelors in Computer Science (with a software concentration) at <b>Northeastern University</b>.
               </p>
               <p className='my-4 font-medium'>
-                I love to build things and I do so with a passion. I believe anything worthwile requires dedication, effort, and time, because Rome wasn&apos;t built in a day. Plan, Build, Test, and when you&apos;re done, <b>iterate and repeat</b>. <br />On another note I&apos;m a <b>standup comedian</b> on the side, a <b>gym rat</b>, and a <b>ONE PIECE fanatic</b>.
+                I love to build things and I do so with a passion. I believe anything worthwile requires <b>dedication, effort, and time</b>, because Rome wasn&apos;t built in a day. Plan, Build, Test, and when you&apos;re done, <b>iterate and repeat</b>. <br />On another note I&apos;m a <b>standup comedian</b> on the side, a <b>gym rat</b>, and a <b>ONE PIECE fanatic</b>.
               </p>
               <p className='font-medium'>
                 Im currently looking for a full-time co-op/internship for the Fall 2023 semester so if you&apos;re interested in working with me, feel free to reach out!
