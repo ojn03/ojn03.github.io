@@ -4,8 +4,9 @@ import inf from 'public/infinite.jpg'
 import bulb from 'public/lightbulb.svg'
 import AnimatedWord from '@/components/AnimatedWord.jsx'
 import { } from '../utils/wordGen'
-import { words1, words2, words3, nouns } from '../utils/wordGen.js'
+import { words1, words2, words3, words4,words5,words6,words7,words8, nouns } from '../utils/wordGen.js'
 import Link from 'next/link'
+
 export default function Home() {
 
   return (
@@ -44,20 +45,20 @@ export default function Home() {
       <div className=' bg-none overflow-hidden w-full h-full  absolute left-0 top-0 lg:flex lg:justify-between text-gold text-6xl hidden'>
         <div className='flex justify-between flex-col '>
           <AnimatedWord list={words1} />
-          <AnimatedWord list={words1} />
-          <AnimatedWord list={words1} />
+          <AnimatedWord list={words2} />
+          <AnimatedWord list={words3} />
         </div>
 
         <div className='flex text-center flex-col justify-between'>
           <AnimatedWord list={nouns} />
-          <AnimatedWord list={words1} />
-          <AnimatedWord list={words2} />
+          <AnimatedWord list={words4} />
+          <AnimatedWord list={words5} />
         </div>
 
         <div className='flex flex-col justify-between text-right'>
-          <AnimatedWord list={words3} />
-          <AnimatedWord list={words2} />
-          <AnimatedWord list={words2} />
+          <AnimatedWord list={words6} />
+          <AnimatedWord list={words7} />
+          <AnimatedWord list={words8} />
         </div>
       </div>
     </div>

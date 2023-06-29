@@ -5,6 +5,6 @@ export const variant = {
     },
     inOut: {
         opacity: [.8, 0], y: [-15, 0],
-        transition: {duration:1.5}
+        transition: {duration:2}
     }
 }

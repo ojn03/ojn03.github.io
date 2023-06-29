@@ -1,15 +1,13 @@
 import ll from 'public/PreviewLens.png'
-import pancakes from 'public/pancakes.jpeg'
-import grafiti from 'public/grafiti2.jpeg'
-import city from 'public/city.jpeg'
-
-
+import arnold from 'public/DALL·E 2023-06-29 16.07.19 - solar system, vibrant colors, van gogh style.png'
+import impDemo from 'public/impDemo.png'
+import sitedemo from 'public/sitedemo.png'
 
 export const projects = [
     {
         infoPath: '',
         title: 'Little Lens',
-        short: 'Post Images, save Images, comment, and more!\nthis is an image sharing application (sorta like Pinterest)\n ',
+        short: 'Post Images, save Images, comment, and more!\nthis is an image sharing application (sorta like Pinterest)\n',
         description: 'Long description',
         image: ll,
         link: 'https://littlelensv1.netlify.app/',
@@ -22,7 +20,7 @@ export const projects = [
         title: 'ojn.me',
         short: 'A website about a (really cool and handsome) guy named Olivier',
         description: 'Long description',
-        image: pancakes,
+        image: sitedemo,
         link: '/',
         repo: 'https://github.com/ojn03/portfolio',
         technologies: ['Next.js', 'Framer Motion', 'Tailwind CSS']
@@ -33,7 +31,7 @@ export const projects = [
         title: 'Polished Pixels',
         short: 'An image processor where users can import and export images in any format, and apply various filters to them.',
         description: 'Long description',
-        image: grafiti,
+        image: impDemo,
         link: '',
         repo: '',
         technologies: ['Java', 'Swing']
@@ -44,7 +42,7 @@ export const projects = [
         title: 'Arnold the Astronaut',
         short: 'A twitter bot that likes astronomy',
         description: 'Long description',
-        image: city,
+        image: arnold,
         link: '',
         repo: '',
         technologies: ['twitter API', 'NASA API', 'twitter4j']

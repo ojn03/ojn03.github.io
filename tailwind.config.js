@@ -17,7 +17,7 @@ module.exports = {
         'mlg': '896px'
       },
       colors: {
-        'light1': '#f0f0ff',
+        // 'light': '#f0f0ff',
         'light': '#fffff0',
         // 'dark': '#50305F',
         'dark': '#6F6320',

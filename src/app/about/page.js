@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
-import me from 'public/me.png'
+import me from 'public/me.jpg'
 import Image from 'next/image'
 import Experiences from '@/components/Experiences'
 import Count  from '@/components/Counter'
@@ -20,7 +20,7 @@ const page = () => {
             {/* <div className=''>
 
             </div> */}
-            <div className='col-span-3 flex flex-col items-start justify-start '>
+            <div className=' col-span-3 flex flex-col items-start justify-start '>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>Bio</h2>
               <p className='font-medium '>
                 My name is <b>Olivier John Nzia</b> and I&apos;m a software engineer. I&apos;m pursuing my bachelors in Computer Science (with a software concentration) at <b>Northeastern University</b>.

@@ -14,8 +14,8 @@ export const Os = [
     'Omnivorous',
     'Ominous',
     'Obtuse',
-    'Odd', 
-    
+    'Odd',
+
 ]
 
 export const Js = [
@@ -36,29 +36,54 @@ export const Ns = [
     'Not-Simpson',
 ]
 
+
 export const words1 = [
     'Innovative',
-    'creative',
     'adaptable',
-    'adventurous',
-    'genuine',
-    'artistic',
+    'creative',
+
 ]
 export const words2 = [
+    'curious',
+    'determined',
     'analytical',
     'ambitious',
-    'curious',
-    'diligent',
-    'proactive',
-    'resourceful',
+    'driven',
+
 ]
 export const words3 = [
     'passionate',
     'dedicated',
     'dependable',
     'attentive',
-    'cooperative',
+]
+
+export const words4 = [
+    'adventurous',
+    'genuine',
+    'artistic',
+]
+export const words5 = [
+    'proactive',
+    'diligent',
+    'resourceful',
+]
+export const words6 = [
     'unique',
+    'cooperative',
+    'versatile',
+]
+export const words7 = [
+    'persistent',
+    'enthusiastic',
+    'optimistic',
+    'practical',
+]
+
+export const words8 = [
+    'autherntic',
+    'productive',
+    'reliable',
 ]
 
 
@@ -69,6 +94,7 @@ export const nouns = [
     'teammate',
     'engineer',
     'developer',
+    'visionary',
 ]
 
 
