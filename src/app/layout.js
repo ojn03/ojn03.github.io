@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className=' m-0 p-0 '>
-      <GA GA_MEASUREMENT_ID={process.env.NEXT_PUBLIC_GA_ID}/>
+      <GA GA_MEASUREMENT_ID="G-7JVEGXSLB0"/>
    <head>
        
         <link rel='icon' href='/icon.svg' />
