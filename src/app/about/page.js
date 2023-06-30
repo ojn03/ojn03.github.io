@@ -42,31 +42,31 @@ const page = () => {
                 <Count from={0} to={7}/>+
                 </span>
                 <h2 className='text-xl font-medium capitalize text-dark/75'>
-                  hours of sleep a night
+                  Years Coding 
                 </h2>
               </div>
 
               <div className='flex flex-col items-end justify-center'>
                 <span className='text-5xl inline-block font-bold'>
-                <Count from={0} to={20}/>+
+                <Count from={0} to={12}/>+
                 </span>
                 <h2 className='text-xl font-medium capitalize text-dark/75'>
-                  pushups a day
+                  Languages and Technologies
                 </h2>
               </div>
 
               <div className='flex flex-col items-end justify-center'>
                 <span className='text-5xl inline-block font-bold'>
-                <Count from={0} to={356}/>
+                <Count from={0} to={999}/>+
                 </span>
-                <h2 className='text-xl font-medium capitalize text-dark/75'>
-                  bones in a blue whale
+                <h2 className='text-base font-medium capitalize text-dark/75'>
+                  Years until Luffy finds the One Piece
                 </h2>
               </div>
 
 
 
-              {/* 2 years of experience, 12+ project repositories, 999+ hours coding, 200+ job rejections,  episodes until Luffy finds the One piece job rejections*/}
+              {/* 2 years of experience, 12+ project repositories, 999+ hours coding, 200+ job rejections,  episodes until Luffy finds the One piece, 356 bones ina blue whale, hours of sleep, daily pushups*/}
             </div>
           </div>
 
