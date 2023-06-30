@@ -13,7 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className=' m-0 p-0 '>
-   
+   <head>
+        <link rel='icon' href='/icon.svg' />
+      </head>
       <body className='m-0 p-0 w-screen h-screen bg-light -z-10 flex flex-col'>
         <NavBar />
         {children}
