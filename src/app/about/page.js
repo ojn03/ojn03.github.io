@@ -1,15 +1,16 @@
-import Head from 'next/head'
 import React from 'react'
 import me from 'public/me.jpg'
 import Image from 'next/image'
 import Experiences from '@/components/Experiences'
 import Count  from '@/components/Counter'
+
+export const metadata = {
+  title: 'Olivier-John Nzia | About',
+}
+
 const page = () => {
   return (
-    <>
-      <Head>
-        <title>Olivier-John Nzia | About</title>
-      </Head>
+  
 
       <main className='flex w-full flex-col items-center justify-center '>
         {/* layout */}
@@ -72,7 +73,7 @@ const page = () => {
           <Experiences />
         </div>
       </main>
-    </>)
+    )
 }
 
 export default page

@@ -1,7 +1,6 @@
 import NavBar from '@/components/NavBar'
 import './globals.css'
 import { Inter } from 'next/font/google'
-import GA from '@/components/Analytics'
 import Script from 'next/script'
 const inter = Inter({ subsets: ['latin'] })
 
