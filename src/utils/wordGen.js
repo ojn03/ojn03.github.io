@@ -1,5 +1,4 @@
 //  Purpose: Generates random words and adjectives for profile
-// TODO - Add more words and adjectives
 export const Os = [
     // '(O-liv-ee-ay)',
     'Orange',
@@ -52,14 +51,14 @@ export const words2 = [
 
 ]
 export const words3 = [
-    'passionate',
+    'adventurous',
     'dedicated',
     'dependable',
     'attentive',
 ]
 
 export const words4 = [
-    'adventurous',
+    'passionate',
     'genuine',
     'artistic',
 ]
@@ -81,7 +80,7 @@ export const words7 = [
 ]
 
 export const words8 = [
-    'autherntic',
+    'authentic',
     'productive',
     'reliable',
 ]

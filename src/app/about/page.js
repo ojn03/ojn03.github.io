@@ -4,7 +4,6 @@ import me from 'public/me.jpg'
 import Image from 'next/image'
 import Experiences from '@/components/Experiences'
 import Count  from '@/components/Counter'
-//todo find a different picture
 const page = () => {
   return (
     <>
