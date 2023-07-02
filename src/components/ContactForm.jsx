@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser';
-import { Flip, toast, ToastContainer } from 'react-toastify';
+import { Flip, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 
 const ContactForm = () => {

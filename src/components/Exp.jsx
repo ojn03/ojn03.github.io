@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import React, { useRef } from 'react';
 import LineIcon from './LineIcon';
-import Link from 'next/link';
 
 const Exp = ({ exp: { position, location, company, description, date, link } }) => {
     const ref = useRef(null)

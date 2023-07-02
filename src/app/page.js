@@ -29,7 +29,7 @@ export default function Home() {
         <div className=' z-10 w-full  flex lg:justify-normal gap-6 justify-center'>
           <Link
             className='  bg-dark text-light py-2 px-6 rounded-lg font-semibold hover:bg-light border-2 border-solid border-transparent hover:border-dark hover:text-dark transition-colors text-lg'
-            href='OlivierNziaResume.pdf'
+            href='/OlivierNziaResume.pdf'
             target='_blank' >
             Résumé
           </Link>

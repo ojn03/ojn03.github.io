@@ -3,8 +3,6 @@
 import Link from 'next/link'
 import React from 'react'
 import Name from './Name'
-import Image from 'next/image'
-import { motion } from 'framer-motion'
 import { usePathname } from 'next/navigation'
 import { LinkedIn, Github, } from '../../public/icons'
 

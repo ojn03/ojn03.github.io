@@ -38,3 +38,6 @@ next-env.d.ts
 
 #config for build
 next.config.js
+
+#editor configs
+.vscode

@@ -1,9 +1,7 @@
 "use client"
 import React, { useRef } from 'react'
 import { experiences } from '@/utils/info'
-import Link from 'next/link'
 import { motion, useScroll } from 'framer-motion'
-import LineIcon from './LineIcon'
 import Exp from './Exp'
 
 const Experiences = () => {

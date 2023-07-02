@@ -21,10 +21,7 @@ export default function RootLayout({ children }) {
         })(window,document,'script','dataLayer','GTM-PF5DSP6');
         `}
     </Script>
-   <head>
-       
-        <link rel='icon' href='/icon.svg' />
-      </head>
+
       <body className='m-0 p-0 w-screen h-screen bg-light -z-10 flex flex-col'>
         <NavBar />
         {children}
