@@ -7,6 +7,7 @@ import emailjs from '@emailjs/browser';
 import { Flip, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 
+
 const ContactForm = () => {
 
     const formRef = useRef();
@@ -47,12 +48,13 @@ const ContactForm = () => {
 
     return (
         <>
-            <form ref={formRef} onSubmit={sendEmail} className='p-10  bg-dark flex flex-col items-center mlg:w-[55%] xl:w-[45%] md:w-4/5 h-fit mx-auto  shadow-2xl rounded-lg'>
+            <form 
+                 ref={formRef} onSubmit={sendEmail} className='p-10  bg-dark flex flex-col items-center mlg:w-[55%] xl:w-[45%] md:w-4/5 h-fit mx-auto  shadow-2xl rounded-lg'>
 
                 <div className='pb-3  w-full  text-left text-light'>
-                    <h1 className=' text-5xl'>Contact <span className='text-gold'>Me</span></h1>
+                    <h1 className=' text-5xl'>Contact <span className=''>Me</span></h1>
                     <p>
-                        or <Link href='mailto:ndjikenzia.o@northeatern.edu' className='underline decoration-1 underline-offset-2 text-gold'>email</Link> me at <Link href='mailto:ndjikenzia.o@northeatern.edu' className='text-gold'>ndjikenzia.o@northeatern.edu</Link>
+                        or <Link href='mailto:ndjikenzia.o@northeatern.edu' className=' decoration-1 underline-offset-2 '>email</Link> me at <Link href='mailto:ndjikenzia.o@northeatern.edu' className='text-gold'>ndjikenzia.o@northeatern.edu</Link>
                     </p>
                 </div>
 

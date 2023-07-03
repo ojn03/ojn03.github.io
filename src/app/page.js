@@ -19,7 +19,7 @@ export default function Home() {
 
         <div className='self-center text-center  lg:text-left'>
           <h1 className=' md:text-5xl text-4xl text-dark'>
-            Hi Im Olivier, Software Engineer
+            Hi I&apos;m Olivier, Software Engineer
           </h1>
           <span className=' block text-lg text-dark font-light pb-2'> (O-liv-ee-ay)</span>
           <p className='font-light text-xl'>
