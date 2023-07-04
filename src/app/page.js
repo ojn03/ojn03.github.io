@@ -1,17 +1,16 @@
 import Image from 'next/image'
 import headshot from 'public/me.png'
-import inf from 'public/infinite.jpg'
-import bulb from 'public/lightbulb.svg'
 import AnimatedWord from '@/components/AnimatedWord.jsx'
 import { } from '../utils/wordGen'
 import { words1, words2, words3, words4,words5,words6,words7,words8, nouns } from '../utils/wordGen.js'
 import Link from 'next/link'
-
+//todo fix animations when clickinh animated words. It doesnt jump in right
+//todo maybe add page transitions
 export default function Home() {
 
   return (
 
-    <div className=' relative overflow-x-hidden max-w-full w-full flex lg:flex-row flex-col lg:justify-between self-center mx-0 my-auto '>
+    <div className=' relative max-w-full w-full flex lg:flex-row flex-col lg:justify-between self-center mx-0 my-auto '>
       <div className='lg:w-1/2 w-3/4  mx-auto'>
         <Image src={headshot} alt='olivier.jpg' className='p-11 mx-auto' />
       </div>
@@ -36,7 +35,7 @@ export default function Home() {
           <Link
             className='self-center text-dark underline underline-offset-4 font-semibold'
             target='_blank'
-            href='mailto:ndjikenzia.o@northeastern.edu'>
+            href='/contact'>
             Say Hi!
           </Link>
         </div>

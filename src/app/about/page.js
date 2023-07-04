@@ -3,16 +3,16 @@ import me from 'public/me.jpg'
 import Image from 'next/image'
 import Experiences from '@/components/Experiences'
 import Count from '@/components/Counter'
-
+import scrolldown from 'public/scrolldown.gif'
 export const metadata = {
   title: 'Olivier-John Nzia | About',
 }
-
+//todo scroll down arrow
 const page = () => {
   return (
 
 
-    <main className='flex w-full flex-col items-center justify-center '>
+    <main className='flex w-full flex-col items-center justify-center'>
       {/* layout */}
       <div className='h-full inline-block z-0 p-32 pt-16'>
         <h1 className='mb-16 text-center'>Rome wasn&apos;t built in a day</h1>
@@ -72,6 +72,10 @@ const page = () => {
 
 
             {/* 2 years of experience, 12+ project repositories, 999+ hours coding, 200+ job rejections,  episodes until Luffy finds the One piece, 356 bones ina blue whale, hours of sleep, daily pushups */}
+
+          </div>
+          <div className='absolute bottom-5 '>
+            <Image src={scrolldown} alt='scrolldown.gif' className='w-8' />
           </div>
         </div>
 

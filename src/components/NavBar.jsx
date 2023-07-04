@@ -8,11 +8,9 @@ import { LinkedIn, Github, } from '../../public/icons'
 
 
 const LinerClass = (path) => {
-  return path !== usePathname() ? 't2' : 'underline decoration-2 underline-offset-[9px]';
-}
+ return "relative after:h-0.5 after:bg-dark after:absolute after:left-0 after:-bottom-1 " + (usePathname() == path ? "after:w-full" : "hover:after:w-full after:transition-[width] after:duration-300 after:w-0")}
 const NavBar = () => {
   return (
-
     //todo add hamburger menu on mobile
     //todo add absolute ojn icon
     //todo maybe add theme toggle

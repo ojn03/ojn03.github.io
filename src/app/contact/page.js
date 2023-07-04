@@ -2,6 +2,8 @@ import React from 'react'
 import ContactForm from '@/components/ContactForm'
 import { ToastContainer } from 'react-toastify'
 
+//todo scale using fabform.io or sendgrid for higher quotas
+
 export const metadata = {
   title: 'Olivier-John Nzia | Contact',
   description: 'A cool guy',
