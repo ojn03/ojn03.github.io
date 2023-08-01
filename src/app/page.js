@@ -6,6 +6,9 @@ import { words1, words2, words3, words4,words5,words6,words7,words8, nouns } fro
 import Link from 'next/link'
 //todo fix animations when clickinh animated words. It doesnt jump in right
 //todo maybe add page transitions
+//change resume to projects
+//add resume icon in navbar
+//make "software engineer" its own one line
 export default function Home() {
 
   return (

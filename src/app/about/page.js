@@ -11,12 +11,11 @@ export const metadata = {
 const page = () => {
   return (
 
-
-    <main className='flex w-full flex-col items-center justify-center'>
+    <main className=' flex w-full flex-col items-center justify-center'>
       {/* layout */}
       <div className='h-full inline-block z-0 p-32 pt-16'>
         <h1 className='mb-16 text-center'>Rome wasn&apos;t built in a day</h1>
-        <div className='grid w-full grid-cols-8 gap-16'>
+        <div className='relative grid w-fit h-fit grid-cols-8 gap-16'>
           {/* <div className=''>
 
             </div> */}
@@ -68,13 +67,9 @@ const page = () => {
                 Years until Luffy finds the One Piece
               </h2>
             </div>
-
-
-
             {/* 2 years of experience, 12+ project repositories, 999+ hours coding, 200+ job rejections,  episodes until Luffy finds the One piece, 356 bones ina blue whale, hours of sleep, daily pushups */}
-
           </div>
-          <div className='absolute bottom-5 '>
+          <div className='absolute -bottom-28 '>
             <Image src={scrolldown} alt='scrolldown.gif' className='w-8' />
           </div>
         </div>

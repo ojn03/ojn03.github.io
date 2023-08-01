@@ -14,7 +14,6 @@ export const Os = [
     'Ominous',
     'Obtuse',
     'Odd',
-
 ]
 
 export const Js = [
