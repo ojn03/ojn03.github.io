@@ -44,7 +44,7 @@ const page = () => {
 
 						<p className="font-medium">
 							I&apos;m currently looking for a full-time co-op/internship for
-							the Fall 2023 semester so if you&apos;re interested in working
+							Spring/Summer 2024 so if you&apos;re interested in working
 							with me, feel free to reach out!
 						</p>
 

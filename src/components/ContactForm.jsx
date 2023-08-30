@@ -65,7 +65,7 @@ const ContactForm = () => {
                         type="email" required name='email' placeholder='Email' />
                     <textarea className='rounded-md p-2'
                         name='message' required placeholder='Message...' rows={10} />
-                    <button type='submit' className='bg-gold/70 rounded-md py-2 px-3 text-dark/90 font-bold text-center items-center w-fit hover:bg-gold/100 hover:text-dark/100 h-fitduration-200 hover:cursor-pointer transition-all animate-bounce'>
+                    <button type='submit' className='bg-gold/70 rounded-md py-2 px-3 text-dark/90 font-bold text-center items-center w-fit hover:bg-gold/100 hover:text-dark/100 duration-400 hover:cursor-pointer transition-all animate-bounce'>
                         Send
                     </button>
                 </div>

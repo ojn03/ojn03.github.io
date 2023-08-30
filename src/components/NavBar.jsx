@@ -14,7 +14,7 @@ const NavBar = () => {
     //todo add hamburger menu on mobile
     //todo add absolute ojn icon
     //todo maybe add theme toggle
-    <div className="flex  text-dark justify-between py-5 px-10   text-xl">
+    <div className="flex  text-dark justify-between py-5 px-10  text-xl z-50">
 
       <nav className="flex items-center flex-wrap gap-3">
         <Link className={LinerClass('/')} href='/'>Home</Link>

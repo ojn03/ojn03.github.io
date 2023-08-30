@@ -30,4 +30,4 @@ module.exports = {
   },
   plugins: [],
 }
-
+//todo space theme with stars colors

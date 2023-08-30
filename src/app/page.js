@@ -4,6 +4,7 @@ import AnimatedWord from '@/components/AnimatedWord.jsx'
 import { } from '../utils/wordGen'
 import { words1, words2, words3, words4,words5,words6,words7,words8, nouns } from '../utils/wordGen.js'
 import Link from 'next/link'
+import { ExternalLight } from '../../public/icons'
 //todo fix animations when clickinh animated words. It doesnt jump in right
 //todo maybe add page transitions
 //change resume to projects
@@ -30,10 +31,10 @@ export default function Home() {
         </div>
         <div className=' z-10 w-full  flex lg:justify-normal gap-6 justify-center'>
           <Link
-            className='  bg-dark text-light py-2 px-6 rounded-lg font-semibold hover:bg-light border-2 border-solid border-transparent hover:border-dark hover:text-dark transition-colors text-lg'
-            href='/OlivierNziaResume.pdf'
+            className='w-fit bg-dark text-light py-2 px-3 rounded-lg font-semibold hover:brightness-105 transition-all border-2 border-solid border-transparent hover:border-dark text-lg hover:scale-105'
+            href='/projects'
             target='_blank' >
-            Résumé
+            Projects <ExternalLight className='inline-block w-5 animate-bounce'/>
           </Link>
           <Link
             className='self-center text-dark underline underline-offset-4 font-semibold'

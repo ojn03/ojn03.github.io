@@ -8,7 +8,7 @@ export const projects = [
 		infoPath: "",
 		title: "Little Lens",
 		short:
-			"Post Images, save Images, comment, and more!\nthis is an image sharing application (sorta like Pinterest)\n",
+			"An image sharing application (like Pinterest); Post and save images, comment, and share. Built with React and Sanity.io\n\n",
 		description: "Long description",
 		image: ll,
 		link: "https://littlelensv1.netlify.app/",
@@ -18,7 +18,7 @@ export const projects = [
 	{
 		infoPath: "",
 		title: "ojn.me",
-		short: "A website about a (really cool and handsome) guy named Olivier",
+		short: "My personal portfolio (this website). Built with Nextjs and Framer Motion",
 		description: "Long description",
 		image: sitedemo,
 		link: "/",
@@ -29,7 +29,7 @@ export const projects = [
 		infoPath: "",
 		title: "Polished Pixels",
 		short:
-			"An image processor where users can import and export images in any format, and apply various filters to them.",
+			"An image processor; Import and export images in any format, and apply 11 different filters. Built with Java and Swing",
 		description: "Long description",
 		image: impDemo,
 		link: "",
@@ -39,7 +39,7 @@ export const projects = [
 	{
 		infoPath: "",
 		title: "Arnold the Astronaut",
-		short: "A twitter bot that likes astronomy",
+		short: "A twitter bot that likes astronomy. Built using Twitter API, NASA API, and Twitter4J",
 		description: "Long description",
 		image: arnold,
 		link: "",
