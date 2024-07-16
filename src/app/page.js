@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import headshot from 'public/me.png'
+import headshot from 'public/headshot.webp'
 import AnimatedWord from '@/components/AnimatedWord.jsx'
 import { } from '../utils/wordGen'
 import { words1, words2, words3, words4,words5,words6,words7,words8, nouns } from '../utils/wordGen.js'

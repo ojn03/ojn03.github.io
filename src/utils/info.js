@@ -1,7 +1,7 @@
-import ll from "public/PreviewLens.png";
-import arnold from "public/DALL·E 2023-06-29 16.07.19 - solar system, vibrant colors, van gogh style.png";
-import impDemo from "public/IMPDEMO.png";
-import sitedemo from "public/sitedemo.png";
+import ll from "public/PreviewLens.webp";
+import arnold from "public/DALLE_VAN_GOGH_1.webp";
+import impDemo from "public/IMPDEMO.webp";
+import sitedemo from "public/sitedemo.webp";
 
 export const projects = [
 	{

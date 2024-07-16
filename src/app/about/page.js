@@ -1,5 +1,5 @@
 import React from "react";
-import me from "public/me.jpg";
+import me from "public/meagain.webp";
 import Image from "next/image";
 import Experiences from "@/components/Experiences";
 import Count from "@/components/Counter";
