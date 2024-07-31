@@ -54,7 +54,7 @@ const ContactForm = () => {
                 <div className='pb-3  w-full  text-left text-light'>
                     <h1 className=' text-5xl'>Contact <span className=''>Me</span></h1>
                     <p>
-                        or <Link href='mailto:ndjikenzia.o@northeatern.edu' className=' decoration-1 underline-offset-2 '>email</Link> me at <Link href='mailto:ndjikenzia.o@northeatern.edu' className='text-gold'>ndjikenzia.o@northeatern.edu</Link>
+                        or <Link href='mailto:ndjikenzia.o@northeastern.edu' className=' decoration-1 underline-offset-2 '>email</Link> me at <Link href='mailto:ndjikenzia.o@northeastern.edu' className='text-gold'>ndjikenzia.o@northeastern.edu</Link>
                     </p>
                 </div>
 
