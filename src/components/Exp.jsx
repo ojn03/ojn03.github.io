@@ -10,14 +10,15 @@ const Exp = ({ exp: { position, location, company, description, date, link } }) 
             <motion.div
                 initial={{ y: 50 }}
                 whileInView={{ y: 0 }}
-                transition={{ duration: .5, type: 'spring' }}>
+                transition={{ duration: .5, type: 'spring' }}
+                className='w-full'>
                 <h3 className='capitalize font-bold text-2xl'>
                     {position}&nbsp;<a className='capitalize text-gold' href={link}>@{company}</a>
                 </h3>
                 <span className='capitalize font-medium text-dark/75 '>
                     {date} | {location}
                 </span>
-                <p className='font-medium w-full'>
+                <p className='font-medium'>
                     {description}
                 </p>
             </motion.div>
